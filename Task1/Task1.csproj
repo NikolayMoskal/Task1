@@ -42,11 +42,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirbusA300.cs" />
+    <Compile Include="AirbusA320.cs" />
+    <Compile Include="Airplane.cs" />
+    <Compile Include="AttackAirplane.cs" />
+    <Compile Include="Biplane.cs" />
+    <Compile Include="Bomber.cs" />
+    <Compile Include="CivilPlane.cs" />
+    <Compile Include="DoubleDeckPlane.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Fighter.cs" />
+    <Compile Include="HighWingPlane.cs" />
+    <Compile Include="InternalCombustionEngine.cs" />
+    <Compile Include="JetEngine.cs" />
+    <Compile Include="LocalPlane.cs" />
+    <Compile Include="LowWingPlane.cs" />
+    <Compile Include="MidWingPlane.cs" />
+    <Compile Include="MilitaryPlane.cs" />
+    <Compile Include="MilitaryTransportPlane.cs" />
+    <Compile Include="Monoplane.cs" />
+    <Compile Include="NarrowBodyPlane.cs" />
+    <Compile Include="PassengerPlane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionalPlane.cs" />
+    <Compile Include="SteamEngine.cs" />
+    <Compile Include="TransportPlane.cs" />
+    <Compile Include="Triplane.cs" />
+    <Compile Include="Tu154.cs" />
+    <Compile Include="TurboFan.cs" />
+    <Compile Include="TurboJetEngine.cs" />
+    <Compile Include="TurboProp.cs" />
+    <Compile Include="WideBodyPlane.cs" />
+    <Compile Include="WingType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
