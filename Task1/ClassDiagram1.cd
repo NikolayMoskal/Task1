@@ -1,224 +1,231 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Task1.AirbusA300">
-    <Position X="3.5" Y="9.25" Width="3" />
+    <Position X="9.5" Y="10.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAGAAAAAACAAAAAQAAAAAAAAEAABAIAAABAABE=</HashCode>
       <FileName>AirbusA300.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.AirbusA320">
-    <Position X="4.25" Y="11.5" Width="1.5" />
+    <Position X="9.5" Y="14" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAACAAAAAAAAAAAAQAAAAAAAAEAAAAIAAABAABE=</HashCode>
       <FileName>AirbusA320.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Airplane">
-    <Position X="11.75" Y="0.5" Width="2.75" />
+    <Position X="13" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAACAAAGAAAAAECAAAAAAAAAAAAAAAAABAIAAAAAABE=</HashCode>
+      <HashCode>AAACAAAGAAAAAACAAAAAAQAAAAAAAAAABAIAAAAAABE=</HashCode>
       <FileName>Airplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.AttackAirplane">
-    <Position X="16.25" Y="5.75" Width="1.5" />
+    <Position X="17" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AttackAirplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Biplane">
-    <Position X="19.5" Y="11" Width="1.5" />
+    <Position X="22.5" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Biplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Bomber">
-    <Position X="20.75" Y="5.75" Width="1.5" />
+    <Position X="21.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bomber.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.CivilPlane">
-    <Position X="7.75" Y="4" Width="1.5" />
+    <Position X="8" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CivilPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.DoubleDeckPlane">
-    <Position X="7.25" Y="9.25" Width="1.5" />
+    <Position X="12.5" Y="10.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DoubleDeckPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Engine">
-    <Position X="4" Y="13.5" Width="2" />
+    <Position X="4" Y="17.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Engine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Fighter">
-    <Position X="18.5" Y="5.75" Width="1.5" />
+    <Position X="19.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Fighter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.HighWingPlane">
-    <Position X="15" Y="12.75" Width="1.5" />
+    <Position X="18" Y="15.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HighWingPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.InternalCombustionEngine">
-    <Position X="5" Y="15.25" Width="2" />
+    <Position X="5" Y="19.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InternalCombustionEngine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.JetEngine">
-    <Position X="1.75" Y="15.25" Width="1.5" />
+    <Position X="1.75" Y="19.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>JetEngine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.LocalPlane">
-    <Position X="9.5" Y="7.5" Width="1.5" />
+    <Position X="5" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LocalPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.LowWingPlane">
-    <Position X="10.5" Y="12.75" Width="1.5" />
+    <Position X="13.5" Y="15.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LowWingPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.MidWingPlane">
-    <Position X="12.75" Y="12.75" Width="1.5" />
+    <Position X="15.75" Y="15.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MidWingPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.MilitaryPlane">
-    <Position X="20" Y="4" Width="1.5" />
+    <Position X="20.75" Y="4" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>MilitaryPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.MilitaryTransportPlane">
-    <Position X="23" Y="5.75" Width="2" />
+    <Position X="23.75" Y="5.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MilitaryTransportPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Monoplane">
-    <Position X="12.75" Y="11" Width="1.5" />
+    <Position X="15.75" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Monoplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.NarrowBodyPlane">
-    <Position X="11.75" Y="7.5" Width="1.5" />
+    <Position X="7.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>NarrowBodyPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.PassengerPlane">
-    <Position X="8.5" Y="5.75" Width="2.25" />
+    <Position X="9.75" Y="5.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAJAAAA=</HashCode>
       <FileName>PassengerPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Program" Collapsed="true">
-    <Position X="26" Y="0.5" Width="1.5" />
+    <Position X="27.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.RegionalPlane">
-    <Position X="14" Y="7.5" Width="1.5" />
+    <Position X="14.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>RegionalPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.SteamEngine">
-    <Position X="7.75" Y="15.25" Width="1.5" />
+    <Position X="7.75" Y="19.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SteamEngine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.TransportPlane">
-    <Position X="1.25" Y="5.75" Width="1.5" />
+    <Position X="1.25" Y="5.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TransportPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Triplane">
-    <Position X="17.25" Y="11" Width="1.5" />
+    <Position X="20.25" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Triplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.Tu154" Collapsed="true">
-    <Position X="27.75" Y="0.5" Width="1.5" />
+    <Position X="29.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Tu154.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.TurboFan">
-    <Position X="0.5" Y="18.75" Width="1.5" />
+    <Position X="0.5" Y="22.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TurboFan.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.TurboJetEngine">
-    <Position X="1.75" Y="17" Width="1.5" />
+    <Position X="1.75" Y="21" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TurboJetEngine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.TurboProp">
-    <Position X="2.75" Y="18.75" Width="1.5" />
+    <Position X="2.75" Y="22.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TurboProp.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Task1.WeaponType" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WeaponType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="Task1.WideBodyPlane">
-    <Position X="5.5" Y="7.5" Width="1.5" />
+    <Position X="11" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>WideBodyPlane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Task1.WingType">
-    <Position X="15" Y="9.5" Width="1.5" />
+    <Position X="18" Y="12.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>WingType.cs</FileName>

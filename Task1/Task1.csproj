@@ -73,6 +73,7 @@
     <Compile Include="TurboFan.cs" />
     <Compile Include="TurboJetEngine.cs" />
     <Compile Include="TurboProp.cs" />
+    <Compile Include="WeaponType.cs" />
     <Compile Include="WideBodyPlane.cs" />
     <Compile Include="WingType.cs" />
   </ItemGroup>

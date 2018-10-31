@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class AttackAirplane : MilitaryPlane
+    public abstract class AttackAirplane : MilitaryPlane
     {
     }
 }

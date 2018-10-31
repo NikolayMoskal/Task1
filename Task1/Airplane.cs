@@ -8,21 +8,14 @@ namespace Task1
 {
     public abstract class Airplane
     {
-        public int EmptyMass { get; set; }
-        public int MaxTakeoffWeight { get; set; }
-        public double FuselageWidth { get; set; }
-        public int MaxDistance { get; set; }
-        public int CruiseSpeed { get; set; }
-        public double WingSpan { get; set; }
-        public Engine Engine { get; protected set; }
-        public WingType WingType { get; protected set; }
-
-        public Monoplane Monoplane
-        {
-            get => default(Monoplane);
-            set
-            {
-            }
-        }
+        public abstract int EmptyMass { get; }
+        public abstract double FuelUsage { get; }
+        public abstract int MaxTakeoffWeight { get; }
+        public abstract double FuselageWidth { get; }
+        public abstract int MaxDistance { get; }
+        public abstract int CruiseSpeed { get; }
+        public abstract double WingSpan { get; }
+        public abstract Engine Engine { get; }
+        public abstract WingType WingType { get; }
     }
 }

@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1
 {
-    public class PassengerPlane : CivilPlane
+    public abstract class PassengerPlane : CivilPlane
     {
-        protected int PlaceCount { get; set; }
+        public const int FuelConst = 32;
+        public abstract int PlaceCount { get; }
+        public abstract double FuelValue { get; }
+        public virtual double Bsfc { get => FuelConst * FuelValue; }
     }
 }

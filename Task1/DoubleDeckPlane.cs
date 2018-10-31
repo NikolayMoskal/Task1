@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class DoubleDeckPlane : WideBodyPlane
+    public abstract class DoubleDeckPlane : WideBodyPlane
     {
     }
 }

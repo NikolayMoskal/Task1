@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public class LocalPlane : PassengerPlane
+    public abstract class LocalPlane : PassengerPlane
     {
     }
 }
