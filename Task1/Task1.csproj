@@ -42,44 +42,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirbusA300.cs" />
-    <Compile Include="AirbusA320.cs" />
-    <Compile Include="Airplane.cs" />
-    <Compile Include="AttackAirplane.cs" />
-    <Compile Include="Biplane.cs" />
-    <Compile Include="Bomber.cs" />
-    <Compile Include="CivilPlane.cs" />
-    <Compile Include="DoubleDeckPlane.cs" />
-    <Compile Include="Engine.cs" />
-    <Compile Include="Fighter.cs" />
-    <Compile Include="HighWingPlane.cs" />
-    <Compile Include="InternalCombustionEngine.cs" />
-    <Compile Include="JetEngine.cs" />
-    <Compile Include="LocalPlane.cs" />
-    <Compile Include="LowWingPlane.cs" />
-    <Compile Include="MidWingPlane.cs" />
-    <Compile Include="MilitaryPlane.cs" />
-    <Compile Include="MilitaryTransportPlane.cs" />
-    <Compile Include="Monoplane.cs" />
-    <Compile Include="NarrowBodyPlane.cs" />
-    <Compile Include="PassengerPlane.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\WideBodyPlanes\AirbusA300.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\WideBodyPlanes\AirbusA320.cs" />
+    <Compile Include="Airplanes\Airplane.cs" />
+    <Compile Include="Airplanes\MilitaryPlanes\AttackAirplanes\AttackAirplane.cs" />
+    <Compile Include="WingTypes\Biplanes\Biplane.cs" />
+    <Compile Include="Airplanes\MilitaryPlanes\Bombers\Bomber.cs" />
+    <Compile Include="Airplanes\CivilPlanes\CivilPlane.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\WideBodyPlanes\DoubleDeckPlanes\DoubleDeckPlane.cs" />
+    <Compile Include="EngineTypes\Engine.cs" />
+    <Compile Include="Airplanes\MilitaryPlanes\Fighters\Fighter.cs" />
+    <Compile Include="WingTypes\Monoplanes\HighWingPlane.cs" />
+    <Compile Include="EngineTypes\InternalCombustionEngines\InternalCombustionEngine.cs" />
+    <Compile Include="EngineTypes\JetEngines\JetEngine.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\LocalPlanes\LocalPlane.cs" />
+    <Compile Include="WingTypes\Monoplanes\LowWingPlane.cs" />
+    <Compile Include="WingTypes\Monoplanes\MidWingPlane.cs" />
+    <Compile Include="Airplanes\MilitaryPlanes\MilitaryPlane.cs" />
+    <Compile Include="Airplanes\MilitaryPlanes\MilitaryTransportPlanes\MilitaryTransportPlane.cs" />
+    <Compile Include="WingTypes\Monoplanes\Monoplane.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\NarrowBodyPlanes\NarrowBodyPlane.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\PassengerPlane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegionalPlane.cs" />
-    <Compile Include="SteamEngine.cs" />
-    <Compile Include="TransportPlane.cs" />
-    <Compile Include="Triplane.cs" />
-    <Compile Include="Tu154.cs" />
-    <Compile Include="TurboFan.cs" />
-    <Compile Include="TurboJetEngine.cs" />
-    <Compile Include="TurboProp.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\RegionalPlanes\RegionalPlane.cs" />
+    <Compile Include="EngineTypes\SteamEngines\SteamEngine.cs" />
+    <Compile Include="Airplanes\CivilPlanes\TransportPlanes\TransportPlane.cs" />
+    <Compile Include="WingTypes\Triplanes\Triplane.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\NarrowBodyPlanes\Tu154.cs" />
+    <Compile Include="EngineTypes\JetEngines\TurboJetEngines\TurboFans\TurboFan.cs" />
+    <Compile Include="EngineTypes\JetEngines\TurboJetEngines\TurboJetEngine.cs" />
+    <Compile Include="EngineTypes\JetEngines\TurboJetEngines\TurboProps\TurboProp.cs" />
     <Compile Include="WeaponType.cs" />
-    <Compile Include="WideBodyPlane.cs" />
-    <Compile Include="WingType.cs" />
+    <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\WideBodyPlanes\WideBodyPlane.cs" />
+    <Compile Include="WingTypes\WingType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

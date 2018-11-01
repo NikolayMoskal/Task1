@@ -4,7 +4,6 @@
     {
         public override int PlaceCount { get => 361; }
 
-
         public override double FuelValue { get => 0.79; }
 
         public override int EmptyMass { get => 78200; }
@@ -23,6 +22,6 @@
 
         public override WingType WingType { get => new LowWingPlane(); }
 
-        public override double Bsfc => base.Bsfc;
+        public override double FuelUsage { get => 1800; }
     }
 }

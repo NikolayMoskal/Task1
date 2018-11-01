@@ -1,6 +1,6 @@
 ﻿namespace Task1
 {
-    public class AirbusA320 : AirbusA300
+    public class AirbusA320 : NarrowBodyPlane
     {
         public override int PlaceCount { get => 180; }
 
@@ -16,6 +16,12 @@
 
         public override double WingSpan { get => 34.1; }
 
-        public override double Bsfc => base.Bsfc;
+        public override int EmptyMass { get => 77000; }
+
+        public override double FuelUsage { get => 2400; }
+
+        public override Engine Engine { get => new TurboFan(); }
+
+        public override WingType WingType { get => new LowWingPlane(); }
     }
 }
