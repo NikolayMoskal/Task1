@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+      <Compile Include="Company\AirplaneCompany.cs"/>
       <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\NarrowBodyPlanes\AirbusA320.cs"/>
       <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\NarrowBodyPlanes\An140.cs"/>
       <Compile Include="Airplanes\CivilPlanes\PassengerPlanes\NarrowBodyPlanes\An148.cs"/>
