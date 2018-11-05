@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.MilitaryPlanes.Fighters
 {
     public abstract class Fighter : MilitaryPlane
     {
+        public int ClimbRate { get; }
+        public int GForce { get; }
     }
 }

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.CivilPlanes.PassengerPlanes.NarrowBodyPlanes
 {
     public abstract class NarrowBodyPlane : PassengerPlane
     {
+        public int Aisles => 1;
     }
 }

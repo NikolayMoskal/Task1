@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.CivilPlanes.TransportPlanes
 {
-    public abstract class TransportPlane : CivilPlane
+    public abstract class TransportPlane : CivilPlane, ITransportable
     {
         public abstract double CargoCompartmentVolume { get; }
+        public override WingType WingType => WingType.HighWingPlane;
     }
 }

@@ -1,10 +1,13 @@
-﻿namespace Task1
+﻿using Task1.SeatClasses;
+
+namespace Task1.Airplanes.CivilPlanes.PassengerPlanes
 {
-    public abstract class PassengerPlane : CivilPlane
+    public abstract class PassengerPlane : CivilPlane, IEconomyClass
     {
-        public const int FuelConst = 32;
-        public abstract int PlaceCount { get; }
-        public abstract double FuelValue { get; }
-        public double Bsfc { get => FuelConst * FuelValue; }
+        public abstract int PortholeCount { get; }
+        public abstract int MaxLuggageWeight { get; }
+        public abstract int RowSeatsCount { get; }
+        public abstract int EconomyClassSeatCount { get; }
+        public abstract double EconomyClassSeatWidth { get; }
     }
 }

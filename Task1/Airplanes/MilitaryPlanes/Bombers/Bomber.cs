@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.MilitaryPlanes.Bombers
 {
     public abstract class Bomber : MilitaryPlane
     {
+        public int BombCount { get; }
+        public int BombMass { get; }
     }
 }

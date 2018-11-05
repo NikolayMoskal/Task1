@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.CivilPlanes.PassengerPlanes.WideBodyPlanes
 {
     public abstract class WideBodyPlane : PassengerPlane
     {
+        public int Aisles => 2;
+        public override WingType WingType => WingType.HighWingPlane;
     }
 }

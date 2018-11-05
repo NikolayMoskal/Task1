@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1.Airplanes.MilitaryPlanes.MilitaryTransportPlanes
 {
-    public abstract class MilitaryTransportPlane : MilitaryPlane
+    public abstract class MilitaryTransportPlane : MilitaryPlane, ITransportable
     {
         public abstract double CargoCompartmentVolume { get; }
     }
