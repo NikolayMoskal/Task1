@@ -8,6 +8,6 @@ namespace Task1.Airplanes.CivilPlanes.PassengerPlanes
         public abstract int MaxLuggageWeight { get; }
         public abstract int RowSeatsCount { get; }
         public abstract int EconomyClassSeatCount { get; }
-        public abstract double EconomyClassSeatWidth { get; }
+        public abstract double EconomyClassSeatStep { get; }
     }
 }

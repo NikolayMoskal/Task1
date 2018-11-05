@@ -10,7 +10,7 @@ namespace Task1.Airplanes.CivilPlanes.TransportPlanes
         public override int CrewCount => 2;
         public override int EmptyMass => 180530;
         public override int MaxWeight => 364240;
-        public override double FuelUsage => 8.38;
+        public override double FuelUsage => 2600;
         public override int MaxDistance => 7800;
         public override int CruiseSpeed => 878;
         public override int EngineCount => 4;

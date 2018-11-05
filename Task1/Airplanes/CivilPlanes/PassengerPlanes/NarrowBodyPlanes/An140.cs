@@ -26,7 +26,7 @@ namespace Task1.Airplanes.CivilPlanes.PassengerPlanes.NarrowBodyPlanes
         public override int MaxLuggageWeight => 20;
         public override int RowSeatsCount => 4;
         public override int EconomyClassSeatCount => 52;
-        public override double EconomyClassSeatWidth => 78;
+        public override double EconomyClassSeatStep => 78;
         public Direction RotateDirection => Direction.Left;
         public double PressureRatio => 9.4;
 

@@ -3,6 +3,6 @@
     public interface IBusinessClass
     {
         int BusinessClassSeatCount { get; }
-        int BusinessClassSeatWidth { get; }
+        int BusinessClassSeatStep { get; }
     }
 }

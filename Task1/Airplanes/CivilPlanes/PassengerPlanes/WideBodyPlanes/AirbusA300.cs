@@ -22,7 +22,7 @@ namespace Task1.Airplanes.CivilPlanes.PassengerPlanes.WideBodyPlanes
         public override WingType WingType => WingType.LowWingPlane;
         public override double FuelUsage => 1800;
         public override int EconomyClassSeatCount => 345;
-        public override double EconomyClassSeatWidth => 86.36;
+        public override double EconomyClassSeatStep => 86.36;
         public override int PortholeCount => 345;
         public override int MaxLuggageWeight => 30;
         public override int RowSeatsCount => 9;

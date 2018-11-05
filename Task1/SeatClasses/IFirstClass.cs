@@ -3,6 +3,6 @@
     public interface IFirstClass
     {
         int FirstClassRoomCount { get; }
-        double FirstClassSeatWidth { get; }
+        double FirstClassSeatStep { get; }
     }
 }

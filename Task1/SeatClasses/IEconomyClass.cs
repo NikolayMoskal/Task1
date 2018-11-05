@@ -3,6 +3,6 @@
     public interface IEconomyClass
     {
         int EconomyClassSeatCount { get; }
-        double EconomyClassSeatWidth { get; }
+        double EconomyClassSeatStep { get; }
     }
 }

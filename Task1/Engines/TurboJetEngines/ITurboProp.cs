@@ -4,10 +4,4 @@
     {
         Direction RotateDirection { get; }
     }
-    
-    public enum Direction
-    {
-        Left,
-        Right
-    }
 }
